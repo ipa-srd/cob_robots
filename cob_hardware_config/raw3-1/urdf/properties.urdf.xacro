@@ -81,4 +81,17 @@
 	<property name="cam3d_roll" value="${def_cam3d_roll+offset_cam3d_roll}"/>
 	<property name="cam3d_pitch" value="${def_cam3d_pitch+offset_cam3d_pitch}"/>
 	<property name="cam3d_yaw" value="${def_cam3d_yaw+offset_cam3d_yaw}"/>
+
+        <!-- ***************************** -->
+        <!-- laser calibration properties -->
+        <!-- ***************************** -->
+        <!-- left | handeye calibration | relative to head_axis_link -->
+        <property name="base_laser_front_x" value="${def_laser_front_x+offset_laser_front_x}"/>
+        <property name="base_laser_rear_x" value="${def_laser_rear_x+offset_laser_rear_x}"/>
+        <property name="base_laser_front_y" value="${def_laser_front_y+offset_laser_front_y}"/>
+        <property name="base_laser_rear_y" value="${def_laser_rear_y+offset_laser_rear_y}"/>
+        <property name="base_laser_z" value="${def_laser_z}"/>
+        <property name="base_laser_front_yaw" value="${def_laser_front_yaw+offset_laser_front_yaw}"/>
+        <property name="base_laser_rear_yaw" value="${def_laser_rear_yaw+offset_laser_rear_yaw}"/>
+
 </robot>

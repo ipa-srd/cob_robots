@@ -84,4 +84,17 @@
 	<property name="def_cam3d_roll" value="0.0"/>
 	<property name="def_cam3d_pitch" value="0.0"/>
 	<property name="def_cam3d_yaw" value="0.0"/>
+
+        <!-- ***************************** -->
+        <!-- laser calibration properties -->
+        <!-- ***************************** -->
+        <!-- relative to base_link -->
+        <property name="def_laser_front_x" value="0.465"/>
+        <property name="def_laser_rear_x" value="-0.465"/>
+        <property name="def_laser_front_y" value="-0.232"/>
+        <property name="def_laser_rear_y" value="0.23"/>
+        <property name="def_laser_z" value="0.178"/>
+        <property name="def_laser_front_yaw" value="-0.7853981634"/>
+        <property name="def_laser_rear_yaw" value="-3.926990817"/>
+
 </robot>
