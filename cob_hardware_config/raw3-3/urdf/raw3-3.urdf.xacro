@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro"
        name="raw3-3" >
-       
+
   <xacro:arg name="robot_id" default="/"/>
 
   <!-- common stuff -->
