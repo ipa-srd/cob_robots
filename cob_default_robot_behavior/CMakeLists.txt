@@ -6,7 +6,9 @@ find_package(catkin REQUIRED COMPONENTS)
 catkin_package()
 
 set(robotlist
+    cob4-1
     cob4-2
+    cob4-5
 )
 
 foreach(robot ${robotlist})

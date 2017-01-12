@@ -11,7 +11,9 @@ set(robotlist
     cob3-9
     cob4-1
     cob4-2
+    cob4-3
     cob4-4
+    cob4-5
     cob4-6
     raw3-1
     raw3-2
@@ -26,8 +28,8 @@ if(CATKIN_ENABLE_TESTING)
     # loop through list of robots for testing
     foreach(robot ${robotlist})
         message("testing for robot: ${robot}")
-        #roslaunch_add_file_check(common robot:=${robot})
-        #roslaunch_add_file_check(common ROBOT=${robot})
+        roslaunch_add_file_check(common robot:=${robot})
+        roslaunch_add_file_check(common ROBOT=${robot})
         add_rostest(test/urdf_${robot}.test)
     endforeach()
 endif()
